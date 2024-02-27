@@ -1,0 +1,10 @@
+fx_version 'cerulean'
+game 'gta5'
+dependencies {'ox_lib','ox_target','ox_inventory'}
+author 'Freezysek'
+version '1.0.0'
+lua54 'yes'
+client_scripts {'client/*'}
+server_scripts {'server/*','configs/webhook_config.lua'}
+shared_scripts {'configs/drugs_config.lua','@ox_lib/init.lua','locales/*.lua','shared/*.lua',}
+escrow_ignore {'configs/*.lua','locales/*.lua'}
